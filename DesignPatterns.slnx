@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/A - Creational/" />
+  <Folder Name="/A - Creational/1 - Singleton/">
+    <Project Path="A - Creational/1 - Singleton/Singleton/Singleton.csproj" />
+  </Folder>
+  <Folder Name="/A - Creational/2 - Factory Method/">
+    <Project Path="A - Creational/2 - Factory Method/FactoryMethod/FactoryMethod.csproj" />
+  </Folder>
+</Solution>
