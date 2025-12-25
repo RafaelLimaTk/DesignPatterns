@@ -6,4 +6,7 @@
   <Folder Name="/A - Creational/2 - Factory Method/">
     <Project Path="A - Creational/2 - Factory Method/FactoryMethod/FactoryMethod.csproj" />
   </Folder>
+  <Folder Name="/A - Creational/3 - Abstract Factory/">
+    <Project Path="A - Creational/3 - Abstract Factory/AbstractFactory/AbstractFactory.csproj" />
+  </Folder>
 </Solution>
