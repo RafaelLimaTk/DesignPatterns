@@ -9,4 +9,7 @@
   <Folder Name="/A - Creational/3 - Abstract Factory/">
     <Project Path="A - Creational/3 - Abstract Factory/AbstractFactory/AbstractFactory.csproj" />
   </Folder>
+  <Folder Name="/A - Creational/4 - Builder/">
+    <Project Path="A - Creational/4 - Builder/Builder/Builder.csproj" Id="3d665a29-b4ae-42d7-af66-8866b1dd694b" />
+  </Folder>
 </Solution>
