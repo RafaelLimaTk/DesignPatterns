@@ -22,4 +22,7 @@
   <Folder Name="/B - Structural/7 - Bridge/">
     <Project Path="B - Structural/7 - Bridge/Bridge/Bridge.csproj" Id="5071855a-db2d-46a3-8a96-3ca69f80f437" />
   </Folder>
+  <Folder Name="/B - Structural/8 - Decorator/">
+    <Project Path="B - Structural/8 - Decorator/Decorator/Decorator.csproj" Id="2d7435de-7b2c-4271-963d-dfa061ca75b5" />
+  </Folder>
 </Solution>
