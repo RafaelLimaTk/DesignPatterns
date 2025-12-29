@@ -43,6 +43,7 @@ Lidam com a composição de classes e objetos para formar estruturas maiores, pe
 | **Composite** | Compõe objetos em estruturas de árvore para representar hierarquias parte-todo. O Composite permite que os clientes tratem objetos individuais e composições de objetos de maneira uniforme. | [Ver Pasta](./B%20-%20Structural/9%20-%20Composite/) |
 | **Facade** | Fornece uma interface unificada para um conjunto de interfaces em um subsistema. O Facade define uma interface de nível mais alto que torna o subsistema mais fácil de usar. | [Ver Pasta](./B%20-%20Structural/10%20-%20Facade/) |
 | **Proxy** | Fornece um substituto ou marcador de lugar para outro objeto para controlar o acesso a ele. | [Ver Pasta](./B%20-%20Structural/11%20-%20Proxy/) |
+| **Flyweight** | Usa o compartilhamento para suportar grandes quantidades de objetos de granularidade fina de forma eficiente. | [Ver Pasta](./B%20-%20Structural/12%20-%20Flyweight/) |
 
 ---
 *Referências: Gamma, Erich; Helm, Richard; Johnson, Ralph; Vlissides, John (1994). Design Patterns: Elements of Reusable Object-Oriented Software.*

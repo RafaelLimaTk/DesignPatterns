@@ -34,4 +34,7 @@
   <Folder Name="/B - Structural/11 - Proxy/">
     <Project Path="B - Structural/11 - Proxy/Proxy/Proxy.csproj" Id="0996d8b3-833c-4a5a-9e06-a508c484ffdc" />
   </Folder>
+  <Folder Name="/B - Structural/12 - Flyweight/">
+    <Project Path="B - Structural/12 - Flyweight/Flyweight/Flyweight.csproj" Id="0bf06619-1265-4e2a-a643-b22ea77d483f" />
+  </Folder>
 </Solution>
