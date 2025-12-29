@@ -1,5 +1,9 @@
 # Design Patterns GoF - Documentação Técnica
 
+![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
+![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+![Design Patterns](https://img.shields.io/badge/Design_Patterns-GoF-blue?style=for-the-badge)
+
 Este repositório contém uma biblioteca prática e organizada de **Design Patterns (Padrões de Projeto)** baseada no livro clássico do **Gang of Four (GoF)**. O objetivo é fornecer implementações claras e documentadas em C# para facilitar o aprendizado e a aplicação desses conceitos em arquitetura de software.
 
 ## Definição de Design Patterns
