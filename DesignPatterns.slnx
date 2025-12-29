@@ -19,4 +19,7 @@
   <Folder Name="/B - Structural/6 - Adapter/">
     <Project Path="B - Structural/6 - Adapter/Adapter/Adapter.csproj" />
   </Folder>
+  <Folder Name="/B - Structural/7 - Bridge/">
+    <Project Path="B - Structural/7 - Bridge/Bridge/Bridge.csproj" Id="5071855a-db2d-46a3-8a96-3ca69f80f437" />
+  </Folder>
 </Solution>
