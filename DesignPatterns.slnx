@@ -31,4 +31,7 @@
   <Folder Name="/B - Structural/10 - Facade/">
     <Project Path="B - Structural/10 - Facade/Facade/Facade.csproj" Id="c572a3f5-5acf-496d-a209-d8abd5473fc0" />
   </Folder>
+  <Folder Name="/B - Structural/11 - Proxy/">
+    <Project Path="B - Structural/11 - Proxy/Proxy/Proxy.csproj" Id="0996d8b3-833c-4a5a-9e06-a508c484ffdc" />
+  </Folder>
 </Solution>
