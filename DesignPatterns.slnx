@@ -16,13 +16,19 @@
     <Project Path="A - Creational/5 - Prototype/Prototype/Prototype.csproj" Id="a6d499a9-be72-4739-86e7-93e6d1b43393" />
   </Folder>
   <Folder Name="/B - Structural/" />
-  <Folder Name="/B - Structural/6 - Adapter/">
+  <Folder Name="/B - Structural/06 - Adapter/">
     <Project Path="B - Structural/6 - Adapter/Adapter/Adapter.csproj" />
   </Folder>
-  <Folder Name="/B - Structural/7 - Bridge/">
+  <Folder Name="/B - Structural/07 - Bridge/">
     <Project Path="B - Structural/7 - Bridge/Bridge/Bridge.csproj" Id="5071855a-db2d-46a3-8a96-3ca69f80f437" />
   </Folder>
-  <Folder Name="/B - Structural/8 - Decorator/">
-    <Project Path="B - Structural/8 - Decorator/Decorator/Decorator.csproj" Id="2d7435de-7b2c-4271-963d-dfa061ca75b5" />
+  <Folder Name="/B - Structural/08 - Decorator/">
+    <Project Path="B - Structural/8 - Decorator/Decorator/Decorator.csproj" Id="dcfefced-517d-466d-9cb0-c60dc59aa1f7" />
+  </Folder>
+  <Folder Name="/B - Structural/09 - Composite/">
+    <Project Path="B - Structural/9 - Composite/Composite/Composite.csproj" Id="798f0c68-25b2-4ef6-9572-7fd954188292" />
+  </Folder>
+  <Folder Name="/B - Structural/10 - Facade/">
+    <Project Path="B - Structural/10 - Facade/Facade/Facade.csproj" Id="c572a3f5-5acf-496d-a209-d8abd5473fc0" />
   </Folder>
 </Solution>
