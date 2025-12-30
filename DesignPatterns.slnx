@@ -41,4 +41,7 @@
   <Folder Name="/C - Behavioral/13 - Template Method/">
     <Project Path="C - Behavioral/13 - Template Method/TemplateMethod/TemplateMethod.csproj" Id="2fcad1a1-ee82-4e29-814f-d41301f8b040" />
   </Folder>
+  <Folder Name="/C - Behavioral/14 - Strategy/">
+    <Project Path="C - Behavioral/14 - Strategy/Strategy/Strategy.csproj" Id="39ead158-2566-4457-980e-ca2f9e8225a0" />
+  </Folder>
 </Solution>

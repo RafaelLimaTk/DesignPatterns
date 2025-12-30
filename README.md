@@ -51,6 +51,7 @@ Os padrões comportamentais se concentram nos algoritmos e na atribuição de re
 | Padrão | Descrição Original (GoF) | Código Fonte |
 | :--- | :--- | :--- |
 | **Template Method** | Define o esqueleto de um algoritmo em uma operação, adiando alguns passos para as subclasses. O Template Method permite que as subclasses redefinem certos passos de um algoritmo sem mudar a estrutura do mesmo. | [Ver Pasta](./C%20-%20Behavioral/13%20-%20Template%20Method/) |
+| **Strategy** | Define uma família de algoritmos, encapsula cada um deles e os torna intercambiáveis. O Strategy permite que o algoritmo varie independentemente dos clientes que o utilizam. | [Ver Pasta](./C%20-%20Behavioral/14%20-%20Strategy/) |
 
 ---
 *Referências: Gamma, Erich; Helm, Richard; Johnson, Ralph; Vlissides, John (1994). Design Patterns: Elements of Reusable Object-Oriented Software.*
