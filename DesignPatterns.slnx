@@ -37,4 +37,8 @@
   <Folder Name="/B - Structural/12 - Flyweight/">
     <Project Path="B - Structural/12 - Flyweight/Flyweight/Flyweight.csproj" Id="0bf06619-1265-4e2a-a643-b22ea77d483f" />
   </Folder>
+  <Folder Name="/C - Behavioral/" />
+  <Folder Name="/C - Behavioral/13 - Template Method/">
+    <Project Path="C - Behavioral/13 - Template Method/TemplateMethod/TemplateMethod.csproj" Id="2fcad1a1-ee82-4e29-814f-d41301f8b040" />
+  </Folder>
 </Solution>

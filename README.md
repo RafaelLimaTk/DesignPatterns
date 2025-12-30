@@ -45,5 +45,12 @@ Lidam com a composição de classes e objetos para formar estruturas maiores, pe
 | **Proxy** | Fornece um substituto ou marcador de lugar para outro objeto para controlar o acesso a ele. | [Ver Pasta](./B%20-%20Structural/11%20-%20Proxy/) |
 | **Flyweight** | Usa o compartilhamento para suportar grandes quantidades de objetos de granularidade fina de forma eficiente. | [Ver Pasta](./B%20-%20Structural/12%20-%20Flyweight/) |
 
+### Behavioral (Comportamentais)
+Os padrões comportamentais se concentram nos algoritmos e na atribuição de responsabilidades entre os objetos. Eles não descrevem apenas padrões de objetos ou classes, mas também os padrões de comunicação entre eles.
+
+| Padrão | Descrição Original (GoF) | Código Fonte |
+| :--- | :--- | :--- |
+| **Template Method** | Define o esqueleto de um algoritmo em uma operação, adiando alguns passos para as subclasses. O Template Method permite que as subclasses redefinem certos passos de um algoritmo sem mudar a estrutura do mesmo. | [Ver Pasta](./C%20-%20Behavioral/13%20-%20Template%20Method/) |
+
 ---
 *Referências: Gamma, Erich; Helm, Richard; Johnson, Ralph; Vlissides, John (1994). Design Patterns: Elements of Reusable Object-Oriented Software.*
