@@ -44,4 +44,7 @@
   <Folder Name="/C - Behavioral/14 - Strategy/">
     <Project Path="C - Behavioral/14 - Strategy/Strategy/Strategy.csproj" Id="39ead158-2566-4457-980e-ca2f9e8225a0" />
   </Folder>
+  <Folder Name="/C - Behavioral/15 - Command/">
+    <Project Path="C - Behavioral/15 - Command/Command/Command.csproj" Id="21f71c23-019e-4a65-a198-3479cdf4f8e8" />
+  </Folder>
 </Solution>
