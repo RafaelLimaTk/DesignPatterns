@@ -62,4 +62,7 @@
   <Folder Name="/C - Behavioral/20 - State/">
     <Project Path="C - Behavioral/20 - State/State/State.csproj" Id="26d771c4-43af-4068-8168-8e70284c4d83" />
   </Folder>
+  <Folder Name="/C - Behavioral/21 - Iterator/">
+    <Project Path="C - Behavioral/21 - Iterator/Iterator/Iterator.csproj" Id="f8b829eb-f573-4490-98b1-bb450c61a097" />
+  </Folder>
 </Solution>
