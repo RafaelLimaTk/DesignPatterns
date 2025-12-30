@@ -53,6 +53,7 @@ Os padrões comportamentais se concentram nos algoritmos e na atribuição de re
 | **Template Method** | Define o esqueleto de um algoritmo em uma operação, adiando alguns passos para as subclasses. O Template Method permite que as subclasses redefinem certos passos de um algoritmo sem mudar a estrutura do mesmo. | [Ver Pasta](./C%20-%20Behavioral/13%20-%20Template%20Method/) |
 | **Strategy** | Define uma família de algoritmos, encapsula cada um deles e os torna intercambiáveis. O Strategy permite que o algoritmo varie independentemente dos clientes que o utilizam. | [Ver Pasta](./C%20-%20Behavioral/14%20-%20Strategy/) |
 | **Command** | Encapsula uma solicitação como um objeto, desta forma permitindo parametrizar clientes com diferentes solicitações, enfileirar ou registrar solicitações e suportar operações que podem ser desfeitas. | [Ver Pasta](./C%20-%20Behavioral/15%20-%20Command/) |
+| **Memento** | Sem violar o encapsulamento, captura e externaliza um estado interno de um objeto, de modo que o objeto possa ser restaurado para este estado mais tarde. | [Ver Pasta](./C%20-%20Behavioral/16%20-%20Memento/) |
 
 ---
 *Referências: Gamma, Erich; Helm, Richard; Johnson, Ralph; Vlissides, John (1994). Design Patterns: Elements of Reusable Object-Oriented Software.*
