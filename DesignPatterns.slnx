@@ -68,4 +68,7 @@
   <Folder Name="/C - Behavioral/22 - Visitor/">
     <Project Path="C - Behavioral/22 - Visitor/Visitor/Visitor.csproj" Id="0278c14d-33ac-4ed6-b84e-fdbcfe900264" />
   </Folder>
+  <Folder Name="/C - Behavioral/23 - Interpreter/">
+    <Project Path="C - Behavioral/23 - Interpreter/Interpreter/Interpreter.csproj" Id="4e3d8fce-2a72-4b59-821d-716c79676a7e" />
+  </Folder>
 </Solution>

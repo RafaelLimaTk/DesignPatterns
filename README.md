@@ -60,6 +60,7 @@ Os padrões comportamentais se concentram nos algoritmos e na atribuição de re
 | **State** | Permite que um objeto altere seu comportamento quando seu estado interno muda. O objeto aparenta mudar de classe. | [Ver Pasta](./C%20-%20Behavioral/20%20-%20State/) |
 | **Iterator** | Fornece uma maneira de acessar sequencialmente os elementos de um agregado sem expor sua representação subjacente. | [Ver Pasta](./C%20-%20Behavioral/21%20-%20Iterator/) |
 | **Visitor** | Representa uma operação a ser realizada sobre os elementos da estrutura de um objeto sem modificar as classes dos elementos sobre os quais opera. | [Ver Pasta](./C%20-%20Behavioral/22%20-%20Visitor/) |
+| **Interpreter** | Define uma representação gramatical para uma linguagem e um interpretador que usa essa representação para interpretar sentenças na linguagem. | [Ver Pasta](./C%20-%20Behavioral/23%20-%20Interpreter/) |
 
 ---
 *Referências: Gamma, Erich; Helm, Richard; Johnson, Ralph; Vlissides, John (1994). Design Patterns: Elements of Reusable Object-Oriented Software.*
