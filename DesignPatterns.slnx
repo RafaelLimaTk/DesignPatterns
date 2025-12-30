@@ -59,4 +59,7 @@
   <Folder Name="/C - Behavioral/19 - Observer/">
     <Project Path="C - Behavioral/19 - Observer/Observer/Observer.csproj" Id="b25f1231-c8a9-43b8-8735-f6310523ec25" />
   </Folder>
+  <Folder Name="/C - Behavioral/20 - State/">
+    <Project Path="C - Behavioral/20 - State/State/State.csproj" Id="26d771c4-43af-4068-8168-8e70284c4d83" />
+  </Folder>
 </Solution>
