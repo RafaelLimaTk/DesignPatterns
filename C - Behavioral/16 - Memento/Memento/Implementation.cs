@@ -158,6 +158,11 @@ public class AddEmployeeCommand
     {
         return !_repository.HasEmployee(_managerId, _employee);
     }
+
+    public void Undo()
+    {
+        _repository.RemoveEmployee(_managerId, _employee);
+    }
 }
 
 /// <summary>
@@ -193,7 +198,7 @@ public class EmployeeManagerInvoker
         var memento = _mementos.Pop();
         _command.RestoreMemento(memento);
         // undo by removing the employee
-        _command.Execute();
+        _command.Undo();
     }
 
     public void UndoAll()
