@@ -1,66 +1,72 @@
-# Design Patterns GoF - Documentação Técnica
+# Design Patterns GoF - Technical Documentation
 
 ![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
 ![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
 ![Design Patterns](https://img.shields.io/badge/Design_Patterns-GoF-blue?style=for-the-badge)
 
-Este repositório contém uma biblioteca prática e organizada de **Design Patterns (Padrões de Projeto)** baseada no livro clássico do **Gang of Four (GoF)**. O objetivo é fornecer implementações claras e documentadas em C# para facilitar o aprendizado e a aplicação desses conceitos em arquitetura de software.
+This repository contains a practical and organized library of **Design Patterns** based on the classic book by the **Gang of Four (GoF)**. The goal is to provide clear, well-documented C# implementations to aid learning and applying these concepts in software architecture.
 
-## Definição de Design Patterns
+Language support
+- English (primary) — `README.md`
+- Português (pt-BR) — `README.pt-BR.md`
 
-Design Patterns são soluções reutilizáveis para problemas recorrentes que surgem durante o desenvolvimento de software. Diferente de bibliotecas ou frameworks, eles são modelos conceituais que orientam a resolução de problemas estruturais e comportamentais em sistemas orientados a objetos.
+If you prefer Portuguese, open `README.pt-BR.md`.
 
-A implementação desses padrões visa:
-- Facilitar a manutenibilidade e escalabilidade do código.
-- Promover a reutilização de soluções testadas.
-- Padronizar a comunicação técnica entre desenvolvedores.
+## Definition: Design Patterns
 
----
+Design patterns are reusable solutions to recurring problems in software development. Unlike libraries or frameworks, they are conceptual models that guide system structure and interaction.
 
-## Catálogo de Padrões Implementados
-
-Abaixo estão os padrões GoF atualmente presentes neste repositório. As descrições seguem as definições originais da obra *Design Patterns: Elements of Reusable Object-Oriented Software*.
-
-### Creational (Criacionais)
-Estes padrões abstraem o processo de instanciação, tornando o sistema independente de como seus objetos são criados, compostos e representados.
-
-| Padrão | Descrição Original (GoF) | Código Fonte |
-| :--- | :--- | :--- |
-| **Singleton** | Garante que uma classe tenha apenas uma instância e fornece um ponto global de acesso a ela. | [Ver Pasta](./A%20-%20Creational/1%20-%20Singleton/) |
-| **Factory Method** | Define uma interface para criar um objeto, mas deixa as subclasses decidirem qual classe instanciar. O Factory Method permite que uma classe adie a instanciação para subclasses. | [Ver Pasta](./A%20-%20Creational/2%20-%20Factory%20Method/) |
-| **Abstract Factory** | Fornece uma interface para criar famílias de objetos relacionados ou dependentes sem especificar suas classes concretas. | [Ver Pasta](./A%20-%20Creational/3%20-%20Abstract%20Factory/) |
-| **Builder** | Separa a construção de um objeto complexo da sua representação, de modo que o mesmo processo de construção possa criar diferentes representações. | [Ver Pasta](./A%20-%20Creational/4%20-%20Builder/) |
-| **Prototype** | Especifica os tipos de objetos a serem criados usando uma instância prototípica e cria novos objetos copiando este protótipo. | [Ver Pasta](./A%20-%20Creational/5%20-%20Prototype/) |
-
-### Structural (Estruturais)
-Lidam com a composição de classes e objetos para formar estruturas maiores, permitindo que diferentes partes do sistema trabalhem de forma coesa.
-
-| Padrão | Descrição Original (GoF) | Código Fonte |
-| :--- | :--- | :--- |
-| **Adapter** | Converte a interface de uma classe em outra interface que os clientes esperam. O Adapter permite que classes trabalhem juntas, o que de outra forma seria impossível devido a interfaces incompatíveis. | [Ver Pasta](./B%20-%20Structural/6%20-%20Adapter/) |
-| **Bridge** | Desacopla uma abstração de sua implementação, de modo que as duas possam variar independentemente. | [Ver Pasta](./B%20-%20Structural/7%20-%20Bridge/) |
-| **Decorator** | Dinamicamente adiciona responsabilidades extras a um objeto. Os Decorators fornecem uma alternativa flexível à herança para estender funcionalidades. | [Ver Pasta](./B%20-%20Structural/8%20-%20Decorator/) |
-| **Composite** | Compõe objetos em estruturas de árvore para representar hierarquias parte-todo. O Composite permite que os clientes tratem objetos individuais e composições de objetos de maneira uniforme. | [Ver Pasta](./B%20-%20Structural/9%20-%20Composite/) |
-| **Facade** | Fornece uma interface unificada para um conjunto de interfaces em um subsistema. O Facade define uma interface de nível mais alto que torna o subsistema mais fácil de usar. | [Ver Pasta](./B%20-%20Structural/10%20-%20Facade/) |
-| **Proxy** | Fornece um substituto ou marcador de lugar para outro objeto para controlar o acesso a ele. | [Ver Pasta](./B%20-%20Structural/11%20-%20Proxy/) |
-| **Flyweight** | Usa o compartilhamento para suportar grandes quantidades de objetos de granularidade fina de forma eficiente. | [Ver Pasta](./B%20-%20Structural/12%20-%20Flyweight/) |
-
-### Behavioral (Comportamentais)
-Os padrões comportamentais se concentram nos algoritmos e na atribuição de responsabilidades entre os objetos. Eles não descrevem apenas padrões de objetos ou classes, mas também os padrões de comunicação entre eles.
-
-| Padrão | Descrição Original (GoF) | Código Fonte |
-| :--- | :--- | :--- |
-| **Template Method** | Define o esqueleto de um algoritmo em uma operação, adiando alguns passos para as subclasses. O Template Method permite que as subclasses redefinem certos passos de um algoritmo sem mudar a estrutura do mesmo. | [Ver Pasta](./C%20-%20Behavioral/13%20-%20Template%20Method/) |
-| **Strategy** | Define uma família de algoritmos, encapsula cada um deles e os torna intercambiáveis. O Strategy permite que o algoritmo varie independentemente dos clientes que o utilizam. | [Ver Pasta](./C%20-%20Behavioral/14%20-%20Strategy/) |
-| **Command** | Encapsula uma solicitação como um objeto, desta forma permitindo parametrizar clientes com diferentes solicitações, enfileirar ou registrar solicitações e suportar operações que podem ser desfeitas. | [Ver Pasta](./C%20-%20Behavioral/15%20-%20Command/) |
-| **Memento** | Sem violar o encapsulamento, captura e externaliza um estado interno de um objeto, de modo que o objeto possa ser restaurado para este estado mais tarde. | [Ver Pasta](./C%20-%20Behavioral/16%20-%20Memento/) |
-| **Mediator** | Define um objeto que encapsula como um conjunto de objetos interage. O Mediator promove o acoplamento fraco ao manter objetos que não se referem um ao outro explicitamente, permitindo variar sua interação independentemente. | [Ver Pasta](./C%20-%20Behavioral/17%20-%20Mediator/) |
-| **Chain of Responsibility** | Evita o acoplamento do remetente de uma solicitação ao seu receptor, permitindo que múltiplos objetos tenham a oportunidade de tratar a solicitação passando-a ao longo de uma cadeia até que algum trate. | [Ver Pasta](./C%20-%20Behavioral/18%20-%20Chain%20of%20Responsibility/) |
-| **Observer** | Define uma dependência um-para-muitos entre objetos de modo que, quando um objeto muda de estado, todos os seus dependentes são notificados e atualizados automaticamente. | [Ver Pasta](./C%20-%20Behavioral/19%20-%20Observer/) |
-| **State** | Permite que um objeto altere seu comportamento quando seu estado interno muda. O objeto aparenta mudar de classe. | [Ver Pasta](./C%20-%20Behavioral/20%20-%20State/) |
-| **Iterator** | Fornece uma maneira de acessar sequencialmente os elementos de um agregado sem expor sua representação subjacente. | [Ver Pasta](./C%20-%20Behavioral/21%20-%20Iterator/) |
-| **Visitor** | Representa uma operação a ser realizada sobre os elementos da estrutura de um objeto sem modificar as classes dos elementos sobre os quais opera. | [Ver Pasta](./C%20-%20Behavioral/22%20-%20Visitor/) |
-| **Interpreter** | Define uma representação gramatical para uma linguagem e um interpretador que usa essa representação para interpretar sentenças na linguagem. | [Ver Pasta](./C%20-%20Behavioral/23%20-%20Interpreter/) |
+This collection aims to:
+- Improve code maintainability and scalability.
+- Promote reuse of proven solutions.
+- Standardize technical communication among developers.
 
 ---
-*Referências: Gamma, Erich; Helm, Richard; Johnson, Ralph; Vlissides, John (1994). Design Patterns: Elements of Reusable Object-Oriented Software.*
+
+## Catalog of Implemented Patterns
+
+Below are the GoF patterns currently present in this repository. Descriptions follow the original definitions from *Design Patterns: Elements of Reusable Object-Oriented Software*.
+
+### Creational
+These patterns abstract the instantiation process, making the system independent of how its objects are created, composed, and represented.
+
+| Pattern | GoF Description | Source |
+| :--- | :--- | :--- |
+| **Singleton** | Ensures a class has only one instance and provides a global point of access to it. | [Folder](./A%20-%20Creational/1%20-%20Singleton/) |
+| **Factory Method** | Defines an interface for creating an object, letting subclasses decide which class to instantiate. | [Folder](./A%20-%20Creational/2%20-%20Factory%20Method/) |
+| **Abstract Factory** | Provides an interface for creating families of related objects without specifying their concrete classes. | [Folder](./A%20-%20Creational/3%20-%20Abstract%20Factory/) |
+| **Builder** | Separates the construction of a complex object from its representation so the same construction process can create different representations. | [Folder](./A%20-%20Creational/4%20-%20Builder/) |
+| **Prototype** | Creates new objects by copying a prototypical instance. | [Folder](./A%20-%20Creational/5%20-%20Prototype/) |
+
+### Structural
+Deal with object composition and typically help make large structures easier to work with.
+
+| Pattern | GoF Description | Source |
+| :--- | :--- | :--- |
+| **Adapter** | Converts the interface of a class into another interface clients expect. | [Folder](./B%20-%20Structural/6%20-%20Adapter/) |
+| **Bridge** | Decouples an abstraction from its implementation so the two can vary independently. | [Folder](./B%20-%20Structural/7%20-%20Bridge/) |
+| **Decorator** | Adds responsibilities to objects dynamically. | [Folder](./B%20-%20Structural/8%20-%20Decorator/) |
+| **Composite** | Composes objects into tree structures to represent part-whole hierarchies. | [Folder](./B%20-%20Structural/9%20-%20Composite/) |
+| **Facade** | Provides a unified interface to a set of interfaces in a subsystem. | [Folder](./B%20-%20Structural/10%20-%20Facade/) |
+| **Proxy** | Provides a surrogate or placeholder for another object to control access to it. | [Folder](./B%20-%20Structural/11%20-%20Proxy/) |
+| **Flyweight** | Uses sharing to support large numbers of fine-grained objects efficiently. | [Folder](./B%20-%20Structural/12%20-%20Flyweight/) |
+
+### Behavioral
+Behavioral patterns focus on algorithms and the assignment of responsibilities between objects.
+
+| Pattern | GoF Description | Source |
+| :--- | :--- | :--- |
+| **Template Method** | Defines the skeleton of an algorithm in a method, deferring some steps to subclasses. | [Folder](./C%20-%20Behavioral/13%20-%20Template%20Method/) |
+| **Strategy** | Defines a family of algorithms, encapsulates each one, and makes them interchangeable. | [Folder](./C%20-%20Behavioral/14%20-%20Strategy/) |
+| **Command** | Encapsulates a request as an object, allowing parameterization, queuing, and undo. | [Folder](./C%20-%20Behavioral/15%20-%20Command/) |
+| **Memento** | Captures and externalizes an object's internal state so it can be restored later. | [Folder](./C%20-%20Behavioral/16%20-%20Memento/) |
+| **Mediator** | Encapsulates how a set of objects interact to promote loose coupling. | [Folder](./C%20-%20Behavioral/17%20-%20Mediator/) |
+| **Chain of Responsibility** | Gives multiple objects a chance to handle a request by passing it along a chain. | [Folder](./C%20-%20Behavioral/18%20-%20Chain%20of%20Responsibility/) |
+| **Observer** | Defines a one-to-many dependency so that when one object changes state, its dependents are notified. | [Folder](./C%20-%20Behavioral/19%20-%20Observer/) |
+| **State** | Allows an object to change its behavior when its internal state changes. | [Folder](./C%20-%20Behavioral/20%20-%20State/) |
+| **Iterator** | Provides sequential access to elements of an aggregate without exposing its representation. | [Folder](./C%20-%20Behavioral/21%20-%20Iterator/) |
+| **Visitor** | Represents an operation to be performed on elements of an object structure without changing their classes. | [Folder](./C%20-%20Behavioral/22%20-%20Visitor/) |
+| **Interpreter** | Defines a grammar for a language and an interpreter that uses the grammar to interpret sentences. | [Folder](./C%20-%20Behavioral/23%20-%20Interpreter/) |
+
+---
+*References: Gamma, Erich; Helm, Richard; Johnson, Ralph; Vlissides, John (1994). Design Patterns: Elements of Reusable Object-Oriented Software.*
