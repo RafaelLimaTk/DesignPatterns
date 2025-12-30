@@ -65,4 +65,7 @@
   <Folder Name="/C - Behavioral/21 - Iterator/">
     <Project Path="C - Behavioral/21 - Iterator/Iterator/Iterator.csproj" Id="f8b829eb-f573-4490-98b1-bb450c61a097" />
   </Folder>
+  <Folder Name="/C - Behavioral/22 - Visitor/">
+    <Project Path="C - Behavioral/22 - Visitor/Visitor/Visitor.csproj" Id="0278c14d-33ac-4ed6-b84e-fdbcfe900264" />
+  </Folder>
 </Solution>

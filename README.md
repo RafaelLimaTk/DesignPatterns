@@ -58,7 +58,8 @@ Os padrões comportamentais se concentram nos algoritmos e na atribuição de re
 | **Chain of Responsibility** | Evita o acoplamento do remetente de uma solicitação ao seu receptor, permitindo que múltiplos objetos tenham a oportunidade de tratar a solicitação passando-a ao longo de uma cadeia até que algum trate. | [Ver Pasta](./C%20-%20Behavioral/18%20-%20Chain%20of%20Responsibility/) |
 | **Observer** | Define uma dependência um-para-muitos entre objetos de modo que, quando um objeto muda de estado, todos os seus dependentes são notificados e atualizados automaticamente. | [Ver Pasta](./C%20-%20Behavioral/19%20-%20Observer/) |
 | **State** | Permite que um objeto altere seu comportamento quando seu estado interno muda. O objeto aparenta mudar de classe. | [Ver Pasta](./C%20-%20Behavioral/20%20-%20State/) |
-| **Iterator** | Fornece uma maneira de acessar sequencialmente os elementos de um agregado sem expor sua representação subjacente. No exemplo deste repositório, `PeopleCollection` fornece um iterador que percorre `Person` em ordem alfabética. | [Ver Pasta](./C%20-%20Behavioral/21%20-%20Iterator/) |
+| **Iterator** | Fornece uma maneira de acessar sequencialmente os elementos de um agregado sem expor sua representação subjacente. | [Ver Pasta](./C%20-%20Behavioral/21%20-%20Iterator/) |
+| **Visitor** | Representa uma operação a ser realizada sobre os elementos da estrutura de um objeto sem modificar as classes dos elementos sobre os quais opera. | [Ver Pasta](./C%20-%20Behavioral/22%20-%20Visitor/) |
 
 ---
 *Referências: Gamma, Erich; Helm, Richard; Johnson, Ralph; Vlissides, John (1994). Design Patterns: Elements of Reusable Object-Oriented Software.*
