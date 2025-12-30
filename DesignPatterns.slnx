@@ -50,4 +50,7 @@
   <Folder Name="/C - Behavioral/16 - Memento/">
     <Project Path="C - Behavioral/16 - Memento/Memento/Memento.csproj" Id="0baeca8e-0d40-4aa7-883d-7210343d3272" />
   </Folder>
+  <Folder Name="/C - Behavioral/17 - Mediator/">
+    <Project Path="C - Behavioral/17 - Mediator/Mediator/Mediator.csproj" Id="aa7aac08-9071-4a55-a8c5-b89b4a6efcf9" />
+  </Folder>
 </Solution>
