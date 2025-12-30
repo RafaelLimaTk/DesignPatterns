@@ -56,6 +56,7 @@ Os padrões comportamentais se concentram nos algoritmos e na atribuição de re
 | **Memento** | Sem violar o encapsulamento, captura e externaliza um estado interno de um objeto, de modo que o objeto possa ser restaurado para este estado mais tarde. | [Ver Pasta](./C%20-%20Behavioral/16%20-%20Memento/) |
 | **Mediator** | Define um objeto que encapsula como um conjunto de objetos interage. O Mediator promove o acoplamento fraco ao manter objetos que não se referem um ao outro explicitamente, permitindo variar sua interação independentemente. | [Ver Pasta](./C%20-%20Behavioral/17%20-%20Mediator/) |
 | **Chain of Responsibility** | Evita o acoplamento do remetente de uma solicitação ao seu receptor, permitindo que múltiplos objetos tenham a oportunidade de tratar a solicitação passando-a ao longo de uma cadeia até que algum trate. | [Ver Pasta](./C%20-%20Behavioral/18%20-%20Chain%20of%20Responsibility/) |
+| **Observer** | Define uma dependência um-para-muitos entre objetos de modo que, quando um objeto muda de estado, todos os seus dependentes são notificados e atualizados automaticamente. | [Ver Pasta](./C%20-%20Behavioral/19%20-%20Observer/) |
 
 ---
 *Referências: Gamma, Erich; Helm, Richard; Johnson, Ralph; Vlissides, John (1994). Design Patterns: Elements of Reusable Object-Oriented Software.*

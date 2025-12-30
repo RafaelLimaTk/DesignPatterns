@@ -56,4 +56,7 @@
   <Folder Name="/C - Behavioral/18 - Chain of Responsibility/">
     <Project Path="C - Behavioral/18 - Chain of Responsibility/ChainOfResponsibility/ChainOfResponsibility.csproj" Id="f0ee12d1-aee0-4131-962f-aa27b4ddbdc4" />
   </Folder>
+  <Folder Name="/C - Behavioral/19 - Observer/">
+    <Project Path="C - Behavioral/19 - Observer/Observer/Observer.csproj" Id="b25f1231-c8a9-43b8-8735-f6310523ec25" />
+  </Folder>
 </Solution>
